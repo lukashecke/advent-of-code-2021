@@ -1,5 +1,3 @@
-import copy
-
 with open('input.txt') as file:
     chosen_numbers = list(map(int, file.readline().split(',')))
 
