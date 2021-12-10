@@ -6,7 +6,7 @@ basin_size = 0
 
 
 def flood_map(x, y):
-    if x >= 0 and x <= 99 and y >= 0 and y <= 99:
+    if 0 <= x <= 99 and 0 <= y <= 99:
         if map[x][y] != 9:
             map[x][y] = 9
             global basin_size
